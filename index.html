@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xuarie™ – Ana Sayfa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <style>
+    /* Temel sıfırlamalar */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: url("https://github.com/Xuarie/Xuarie-Kaynaklar/blob/main/xuariewebarkaplan.png?raw=true") no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      position: relative;
+    }
+
+    .logo-box {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      z-index: 10;
+    }
+
+    .logo-box img {
+      height: 100px;
+    }
+
+    .logo-text {
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+
+    /* İçeriği tam ortalar */
+    .content {
+      display: flex;
+      justify-content: center; /* yatayda ortala */
+      align-items: center;     /* dikeyde ortala */
+      height: 100vh;           /* tam ekran yüksekliği */
+      padding: 2rem;           /* sağ-sol eşit boşluk */
+    }
+
+    /* Açıklama kutusu geniş ve sola hizalı yazı */
+    .container {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 2rem;
+      width: 80%;
+      max-width: 900px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
+      text-align: left;
+      border-radius: 0;
+    }
+
+    .container p {
+      font-size: 1rem;
+      line-height: 1.6;
+      opacity: 0.9;
+      white-space: pre-line; /* Satır sonlarını korur */
+    }
+  </style>
+</head>
+<body>
+  <!-- Sol Üst Logo ve Yazı -->
+  <div class="logo-box">
+    <img src="https://raw.githubusercontent.com/Xuarie/Xuarie-Kaynaklar/main/xuarietransparentlogo.png" alt="Xuarie Logo" />
+    <div class="logo-text">Xuarie™</div>
+  </div>
+
+  <!-- İçerik Alanı -->
+  <div class="content">
+    <div class="container">
+      <p>
+        Xuarie™, Windows Preinstallation Environment ve Office Pro Plus 2021 tabanlı Chromium özellikli bir işletim sistemidir.
+        Amacımız, bir yerde yatan Atom, Celeron veya Pentium gibi düşük işlemcileri tekrar kullanılabilir yapmaktır.
+        Xuarie ile Not tutabilir, internette gezinebilir ve internet oyunlarını oynayabilirsiniz.
+
+        Şu anda işletim sistemimiz geliştirme aşamasında olduğu için bir indirme sağlayamamaktayız.
+
+        Xuarie™ tamamen açık kaynaktır.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
